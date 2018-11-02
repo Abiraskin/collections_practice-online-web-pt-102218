@@ -26,9 +26,9 @@ end
 
 
 def sum_array(array)
-  sum = 0
-  array.inject do |num|
-    sum:+num
+  x = 0
+  array.inject do |num,x|
+    num + x
   end
-  sum
+  x
 end
