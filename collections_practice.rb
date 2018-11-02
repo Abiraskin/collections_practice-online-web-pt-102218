@@ -24,6 +24,12 @@ def reverse_array(array)
   array.reverse
 end
 
+def kesha_maker(array)
+  array.each do |item|
+    item[2] = "$"
+  end
+end
+
 def fund_a(array)
   array.select do |word|
     word[0] = "a"
