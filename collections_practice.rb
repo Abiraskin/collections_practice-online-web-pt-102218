@@ -24,13 +24,6 @@ def reverse_array(array)
   array.reverse
 end
 
-def kesha_maker(array)
-  list = []
-  kesha_maker.each |word|
-    word[2] = "$"
-  end
-end
-
 
 def sum_array(array)
   sum = 0
