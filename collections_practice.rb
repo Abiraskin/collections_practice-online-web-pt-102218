@@ -37,9 +37,19 @@ def find_a(array)
 end
 
 def sum_array(array)
-  sum == 0
+  sum = 0
   array.inject do |sum,x|
     sum + x
   end
   sum
+end
+
+def add_s(array)
+  array.collect do |word|
+    if array[1] == word
+      word
+    else
+      word + "s"
+    end
+  end
 end
