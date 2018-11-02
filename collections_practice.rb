@@ -24,6 +24,11 @@ def reverse_array(array)
   array.reverse
 end
 
+def fund_a(array)
+  array.select do |word|
+    word[0] = "a"
+  end
+end    
 
 def sum_array(array)
   x = 0
