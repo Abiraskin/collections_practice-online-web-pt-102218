@@ -28,7 +28,7 @@ def fund_a(array)
   array.select do |word|
     word[0] = "a"
   end
-end    
+end
 
 def sum_array(array)
   x = 0
