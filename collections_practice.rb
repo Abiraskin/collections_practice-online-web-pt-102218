@@ -30,7 +30,7 @@ def kesha_maker(array)
   end
 end
 
-def fund_a(array)
+def find_a(array)
   array.select do |word|
     word[0] = "a"
   end
